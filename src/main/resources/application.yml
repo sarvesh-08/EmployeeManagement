@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://booklibrary1.database.windows.net:1433;database=BookStorage;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;authentication=ActiveDirectoryPassword;
+    username: kulkarni2002sarveshgmail.onmicrosoft.com
+    password: Sarvesh@432
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.SQLServer2012Dialect
+      
+server:
+  port: 8091
+  
