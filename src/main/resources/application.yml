@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://booklibrary1.database.windows.net:1433;database=BookStorage;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;authentication=ActiveDirectoryPassword;
-    username: kulkarni2002sarveshgmail.onmicrosoft.com
-    password: Sarvesh@432
+    url: jdbc:sqlserver://server5011.database.windows.net:1433;database=sqlDB;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: sarvesh@server5011
+    password: Password@123
   jpa:
     show-sql: true
     hibernate:
